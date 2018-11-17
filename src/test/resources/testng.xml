@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="MavenSample.Password_characters_TC07"/>
+      <class name="MavenSample.Registration_TC01"/>
+      <class name="MavenSample.ForgotPassword_TC06"/>
+      <class name="MavenSample.Negative_TC02"/>
+      <class name="MavenSample.Negative_TC03"/>
+      <class name="MavenSample.Negative_TC04"/>
+      <class name="MavenSample.Negative_TC05"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
